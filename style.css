@@ -182,9 +182,11 @@ HIGHLIGHTS
 
 .highlight__wrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
+    border: 1px solid gray;
     padding: 0 24;
     width: calc(100% / 3);
     display: flex;
@@ -192,6 +194,7 @@ HIGHLIGHTS
     justify-content: center;
     flex-direction: column;
 }
+
 
 .highlight__para {
     text-align: center;
